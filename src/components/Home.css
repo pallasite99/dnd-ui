@@ -1,0 +1,29 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  .home-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .home-background {
+    background-image: url('dnd-background.jpg'); /* Replace 'dnd-background.jpg' with the path to your Dungeons and Dragons background image */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
